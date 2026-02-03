@@ -1,154 +1,33 @@
-# 🤖 Face Recognition Web Application (Flask + Machine Learning)
+# Face Recognition Web Application (Flask + Machine Learning)
 
-A complete **Face Recognition System** built using **Flask**, **OpenCV**, and **Machine Learning**.  
-This application detects, encodes, and recognizes human faces from images or real‑time camera streams.
+A complete Face Recognition System built using Flask, OpenCV, and Machine Learning.
+
+This application detects, encodes, and recognizes human faces from images or real-time camera streams.
 
 This project can be used for:
-
-- Attendance systems  
-- Authentication & access control  
-- Identity verification  
-- Smart kiosks & automation  
-
----
-
-## 🚀 Features
-
-- 🔍 Face detection using OpenCV  
-- 🧠 ML-powered face recognition (KNN or similar)  
-- 🎥 Real-time video streaming  
-- 📁 Dataset creation for new users  
-- 📊 Attendance or event logging  
-- 🌐 Simple Flask-based web interface  
-- 🧩 Clean, modular, and easy-to-understand codebase  
+- Attendance systems
+- Authentication and access control
+- Identity verification
+- Smart kiosks and automation
 
 ---
 
-## 🧰 Technology Stack
-
-| Component | Purpose |
-|----------|----------|
-| **Flask** | Web server & routing |
-| **OpenCV** | Face detection & image preprocessing |
-| **Scikit-Learn** | Machine learning classifier |
-| **NumPy** | Mathematical & matrix computations |
-| **Pandas** | Data handling (CSV / logs) |
-| **Pillow (PIL)** | Image manipulation |
-| **Gunicorn** | WSGI server for deployment |
+## Features
+- Face detection using OpenCV
+- ML-powered face recognition (KNN or similar)
+- Real-time video streaming
+- Dataset creation for new users
+- Attendance or event logging
+- Simple Flask-based web interface
+- Clean, modular, and easy-to-understand codebase
 
 ---
 
-## 📦 Installation
-
-### 1. Clone the repository
-```bash
-git clone <your-repository-url>
-cd Face_Recognition_With_ML_And_Flask_App
-````
-
-### 2. Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-### Activate it:
-
-**Windows**
-
-```bash
-venv\Scripts\activate
-```
-
-**macOS / Linux**
-
-```bash
-source venv/bin/activate
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the application
-
-```bash
-python app.py
-```
-
-***
-
-## 📂 Project Structure
-
-    Face_Recognition_With_ML_And_Flask_App/
-    │
-    ├── app.py                # Flask application
-    ├── train.py              # Model training script
-    ├── requirements.txt      # Dependencies
-    │
-    ├── model/                # Saved encodings / ML models
-    │
-    ├── static/               # CSS, JS, images
-    │   └── images/
-    │
-    └── templates/            # HTML templates for Flask
-
-***
-
-## 🧠 How It Works
-
-### 1. **Face Detection**
-
-Images or live video frames are processed using OpenCV to detect faces.
-
-### 2. **Face Encoding**
-
-Each detected face is converted into a numerical encoding (vector).
-
-### 3. **Machine Learning Classification**
-
-A trained ML model (such as KNN) compares encodings with known faces.
-
-### 4. **Recognition Output**
-
-The system predicts the person’s identity and displays it on the UI.
-
-***
-
-## 📸 Screenshots
-
-Add your images inside `static/images/` and reference them here:
-
-Example:
-
-    static/images/home.png
-    static/images/recognition.png
-
-***
-
-## 🚀 Deployment (Production)
-
-Using **Gunicorn**:
-
-```bash
-gunicorn --bind 0.0.0.0:8000 wsgi:app
-```
-
-You may also configure **Nginx** for reverse proxying.
-
-***
-
-## 🤝 Contributing
-
-Contributions and suggestions are welcome!  
-Feel free to open an issue or submit a pull request.
-
-***
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
-```
+## Technology Stack
+- Flask
+- OpenCV
+- scikit-learn
+- NumPy
+- Pandas
+- Pillow
+- Gunicorn

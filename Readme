@@ -1,10 +1,10 @@
 # 🤖 Face Recognition With ML And Flask App
 
 ## 🚀 Project Overview
+A dynamic **Web Application** built with **Flask** that implements **Face Recognition** using **Machine Learning**.  
+The system detects, encodes, and identifies human faces from images or real-time video streams.  
 
-This project implements a **Face Recognition** system deployed as a dynamic **Web Application** using the Flask micro-framework. It leverages **Machine Learning** techniques to detect, encode, and identify human faces in images or real-time video streams.
-
-The core technology stack combines robust data processing and machine learning libraries with powerful computer vision tools to create a functional and scalable application.
+This project combines **computer vision** and **ML classification** to deliver a scalable solution for tasks such as **attendance tracking**, **authentication**, or **personalized user experiences**.
 
 ---
 
@@ -12,19 +12,16 @@ The core technology stack combines robust data processing and machine learning l
 
 | Library / Framework          | Purpose                                                                                                     |
 | :--------------------------- | :---------------------------------------------------------------------------------------------------------- |
-| **Flask**                    | Micro-framework used to build the web application, handle routing, and serve HTML templates.                |
-| **OpenCV** (`opencv-python`) | Core library for **Computer Vision** tasks like face detection, video stream capture, and image processing. |
-| **scikit-learn**             | Used for training and implementing the classification model (e.g., K-Nearest Neighbors) on face encodings.  |
-| **NumPy**                    | Fundamental library for efficient numerical operations and handling image data as multi-dimensional arrays. |
-| **Pandas**                   | Utilized for data handling, managing user/face databases, and processing attendance logs (if applicable).   |
-| **Matplotlib**               | Used for data visualization, debugging, and plotting analysis results (if applicable).                      |
-| **Gunicorn**                 | Production-ready **WSGI HTTP Server** used to deploy the Flask application reliably.                        |
-| **Pillow**                   | Image manipulation library, often used by `opencv-python` and other components for image file I/O.          |
+| **Flask**                    | Web framework for routing and serving HTML templates.                                                       |
+| **OpenCV** (`opencv-python`) | Face detection, video stream capture, and image processing.                                                 |
+| **scikit-learn**             | Classification model (e.g., K-Nearest Neighbors) for face encodings.                                        |
+| **NumPy**                    | Numerical operations and handling image data as arrays.                                                     |
+| **Pandas**                   | Data management, user/face databases, and attendance logs.                                                  |
+| **Matplotlib**               | Visualization and debugging.                                                                                |
+| **Gunicorn**                 | Production-ready WSGI server for deploying Flask apps.                                                      |
+| **Pillow**                   | Image manipulation and preprocessing.                                                                       |
 
 ### Badges
-
-The application is built using the following technologies:
-
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
@@ -38,8 +35,6 @@ The application is built using the following technologies:
 ## 💻 Installation and Setup
 
 ### 1. Clone the Repository
-
 ```bash
 git clone <Your-Repository-URL>
 cd Face_Recognition_With_ML_And_Flask_App
-```
